@@ -1,0 +1,18 @@
+{
+    "name": "MOOC_PRACTICA_SQL",
+    "author": "BBDD-ETSIT",
+    "license": "GNU",
+    "version": "0.0.0",
+    "info": {
+        "githubURL": "BBDD-ETSIT/MOOC_PRACTICA_SQL",
+        "serverUrl": "https://moocbot.dit.upm.es/",
+        "courseId": "1312",
+        "assignmentId": "813"
+    },
+    "dependencies": {
+        "autocorector": "^3.1.6",
+        "mysql2": "^2.1.0",
+        "sequelize": "^5.21.3",
+        "sequelize-cli": "^5.5.1"
+    }
+}
