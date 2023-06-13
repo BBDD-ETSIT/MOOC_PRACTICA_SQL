@@ -23,12 +23,12 @@ Para la realización de esta práctica es necesario tener instalado MySQL así c
 El proyecto debe clonarse en el ordenador desde el que se está trabajando:
 
 ```
-$ git clone https://github.com/BBDD-ETSIT/P4_SQL_BBDDR
+$ git clone https://github.com/BBDD-ETSIT/MOOC_PRACTICA_SQL
 ```
 A continuación deben instalarse las dependencias necesarias para ejecutar el autocorector: 
 
 ```
-$ cd P4_SQL_BBDDR
+$ cd MOOC_PRACTICA_SQL
 $ npm install
 ```
 A continuación deben configurarse los datos de acceso a MySQL mediante las variables de entorno.
