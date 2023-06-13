@@ -87,23 +87,15 @@ Una vez importados los datos conectarse a mysql y comprobar que se ha creado una
 
 5. Calcular el sueldo medio ACTUAL de los empleados nacidos en diciembre de 1964. Modificar el valor del sueldo del empleado con emp_no=12068 para que sea el valor obtenido (su parte entera). (2 ptos)
 
-## Prueba de la práctica 
+## Prueba de la práctica  
 
 Para ayudar al desarrollo, se provee una herramienta de autocorrección que prueba las distintas funcionalidades que se piden en el enunciado. Para utilizar esta herramienta debes tener node.js (y npm) ([https://nodejs.org/es/](https://nodejs.org/es/)) y Git instalados. 
 
-Para instalar y hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/autocorector) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
+Para hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/autocorector) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
 
 ```
-$ npm install -g autocorector     ## Instala el programa de test
-$ autocorector                    ## Pasa los tests al fichero a entregar
-............................      ## en el directorio de trabajo
-... (resultado de los tests)
-```
-También se puede instalar como paquete local, en el caso de que no se dispongas de permisos en el ordenador desde el que estás trabajando:
-```
-$ npm install autocorector     ## Instala el programa de test
-$ npx autocorector             ## Pasa los tests al fichero a entregar
-............................   ## en el directorio de trabajo
+$ npx autocorector                    ## Pasa los tests al fichero a entregar
+............................          ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
 
@@ -113,12 +105,8 @@ Se puede pasar la herramienta de autocorrección tantas veces como se desee sin 
 
 Una vez satisfecho con su calificación, el alumno puede subir su entrega a Moodle con el siguiente comando:
 ```
-$ autocorector --upload
-```
-o, si se ha instalado como paquete local:
-```
 $ npx autocorector --upload
 ```
 
-La herramienta de autocorrección preguntará por el correo del alumno y el token de Moodle. En el enlace [https://www.npmjs.com/package/autocorector](https://www.npmjs.com/package/autocorector) se proveen instrucciones para encontrar dicho token.
+La herramienta de autocorrección preguntará por npmbre del alumno, el correo electrónico y el token de Moodle. En el enlace [https://www.npmjs.com/package/autocorector](https://www.npmjs.com/package/autocorector) se proveen instrucciones para encontrar dicho token.
 
