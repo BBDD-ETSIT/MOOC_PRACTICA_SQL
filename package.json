@@ -6,8 +6,8 @@
     "info": {
         "githubURL": "BBDD-ETSIT/MOOC_PRACTICA_SQL",
         "serverUrl": "https://moocbot.dit.upm.es/",
-        "courseId": "1312",
-        "assignmentId": "813"
+        "courseId": "1521",
+        "assignmentId": "874"
     },
     "dependencies": {
         "autocorector": "^3.1.6",
